@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+.currency_input{
+  color: red;
+}
+
+.currency_input :hover{
+  color: aqua;
+}
+.fku1{
+  text-align: left;
+  line-height: 2rem;
+}
+.fku1 ul li{
+  list-style: none;
+}
+img{
+  /* height: 5rem; */
+  width: 5rem;
+}

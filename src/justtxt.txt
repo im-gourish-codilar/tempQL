@@ -1,0 +1,11 @@
+query urlResolver($url: String!) {
+      currency{
+        base_currency_code
+        available_currency_codes
+       }
+      
+      urlResolver(url: $url) {
+        type
+        url_key
+      }
+    }
